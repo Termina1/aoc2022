@@ -11,8 +11,6 @@ iv =. a: ,~ (min ,&< {.)
 look =. iv@[ >@{: F:. ((([ <@:>. >@{.@]) , 1{]) , ((1{]) <@:>&> {.@])) }.@]
 tl =. 1 0,: ($ data)
 clook =. +/"2@(tl (+/)@look;.3 ])
-align clook each dviews
+]part2 =. >./^:_ */ > align clook each dviews
 
-$ +/ look (> 3 { dviews)
 
- (1 { > 3 { dviews)  ((([ <@:>. >@{.@]) , 1{]) ] (] ] {.@])) (iv > 3 { dviews)
